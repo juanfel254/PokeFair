@@ -18,7 +18,7 @@ function App() {
 
   let [pokemonsData, setPokemonsData] = useState([]); 
   if (!pokemonsData.length){
-    getPokemons().then(pokemons => (setPokemonsData(pokemonsData.push(pokemons))));
+    getPokemons().then(pokemons => (setPokemonsData(pokemons)));
   }
 
   return (
