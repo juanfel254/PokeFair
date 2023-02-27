@@ -5,10 +5,12 @@ export default function Pokemons({ pokemonsData } ) {
 
     let pokemons = undefined;
     if (pokemonsData.length) {
-      pokemons = pokemonsData.map( pokemon => {
+      pokemons = pokemonsData.map( (pokemon, index) => {
         return <PokemonCard 
-          pokemonName={pokemon.name}
-          key = {pokemon.url}
+          pokemonName = {pokemon.name}
+          pokemonNumber = {index+1} 
+          pokemonApi = {pokemon.url}
+          key = {index+1}
         />
       })
     }
