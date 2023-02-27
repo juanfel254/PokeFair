@@ -2,6 +2,8 @@
 
 There is no more original way to learn React than making your very own Pokedéx. So that's what this is, my very own version of a Pokedéx made with React.
 
+Feel free to take a look https://pokefair.netlify.app/
+
 ## What did I learn?
 How to consume an API (GET method only), async functions and basic handle of promises.
 
