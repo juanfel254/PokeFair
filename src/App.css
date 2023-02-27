@@ -10,3 +10,8 @@ body {
   font-family: 'Rubik', sans-serif;
   background-color: #F5FBFB;
 }
+
+main {
+  padding: 20px;
+  text-align: center;
+}
